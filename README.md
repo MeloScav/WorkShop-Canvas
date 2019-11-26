@@ -15,7 +15,11 @@ We propose you different projects :
 
 Use the [MDN documentation](https://developer.mozilla.org/fr/docs/Tutoriel_canvas/Formes_g%C3%A9om%C3%A9triques), it is very well done :)
 
-### Author
+### Draw with canvas
+
+To draw in canvas, you must first create a sheet **index.html** and a **script.js** sheet, you can also add a sheet **style.css** if you want to stylize a little more your drawing.
+
+## Author
 
 Scavezzoni Méloé
 Jessica Pirotte
