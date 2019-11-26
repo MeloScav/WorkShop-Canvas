@@ -19,6 +19,13 @@ Use the [MDN documentation](https://developer.mozilla.org/fr/docs/Tutoriel_canva
 
 To draw in canvas, you must first create a sheet **index.html** and a **script.js** sheet, you can also add a sheet **style.css** if you want to stylize a little more your drawing.
 
+In your index.html, you need to add a canvas tag :
+
+```
+<canvas id="canevas" width="600" height="400">You can add text if the canvas is not supported</canvas>
+
+```
+
 ## Author
 
 Scavezzoni Méloé
