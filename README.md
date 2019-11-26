@@ -39,7 +39,7 @@ const context = canvas.getContext("2d");
 
 ```
 
-Do not forget to use **beginPath()** to start a path and **closePath()** to close a path.
+To draw a path, do not forget to use **beginPath()** to start the path, write the drawing instructions, close the path **closePath()** , and trace or fill the shape.
 
 If you can, use functions to simplify your code.
 
