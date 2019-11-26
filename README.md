@@ -9,7 +9,7 @@ We propose you different projects :
 
 - Draw a title with 4 squares of different colors (drawing with fill () but also with stroke ()), and adding an image to the center of your canvas. Draw also a canvas border.
 - Draw 3 triangles, one with its unclosed path.
-- Draw a Pacman
+- Draw an animated Pacman
 
 ## Explanation
 
@@ -40,6 +40,10 @@ const context = canvas.getContext("2d");
 ```
 
 Do not forget to use **beginPath()** to start a path and **closePath()** to close a path.
+
+If you can, use functions to simplify your code.
+
+You will find a correction on the branch "corrections"
 
 ## Author
 
