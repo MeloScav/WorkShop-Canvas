@@ -22,7 +22,9 @@ To draw in canvas, you must first create a sheet **index.html** and a **script.j
 In your index.html, you need to add a canvas tag :
 
 ```
-<canvas id="canevas" width="600" height="400">You can add text if the canvas is not supported</canvas>
+
+**<canvas** id="canevas" width="600" height="400">You can add text if the canvas is not supported **</canvas>**
+
 
 ```
 
