@@ -19,7 +19,7 @@ Use the [MDN documentation](https://developer.mozilla.org/fr/docs/Tutoriel_canva
 
 To draw in canvas, you must first create a sheet **index.html** and a **script.js** sheet, you can also add a sheet **style.css** if you want to stylize a little more your drawing.
 
-In your index.html, you need to add a canvas tag :
+In your **index.html**, you need to add a canvas tag :
 
 ```
 
@@ -27,7 +27,7 @@ In your index.html, you need to add a canvas tag :
 
 ```
 
-In your script.js, you will always need to do two things :
+In your **script.js**, you will always need to do two things :
 
 - recover the canvas
 - define the context
@@ -38,6 +38,8 @@ const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
 
 ```
+
+Do not forget to use **beginPath()** to start a path and **closePath()** to close a path.
 
 ## Author
 
