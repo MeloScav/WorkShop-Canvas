@@ -23,8 +23,19 @@ In your index.html, you need to add a canvas tag :
 
 ```
 
-**<canvas** id="canevas" width="600" height="400">You can add text if the canvas is not supported **</canvas>**
+<canvas id="canvas" width="600" height="400">You can add text if the canvas is not supported </canvas>
 
+```
+
+In your script.js, you will always need to do two things :
+
+- recover the canvas
+- define the context
+
+```
+
+const canvas = document.getElementById("canvas");
+const context = canvas.getContext("2d");
 
 ```
 
