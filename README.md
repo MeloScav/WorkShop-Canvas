@@ -47,5 +47,5 @@ You will find a correction on the branch "corrections"
 
 ## Author
 
-Scavezzoni Méloé
+Scavezzoni Méloé  
 Jessica Pirotte
