@@ -7,7 +7,7 @@ Welcome to the Canvas workshop to learn how to draw anything you want !
 
 We propose you different projects :
 
-- Draw a title with 4 squares of different colors (drawing with fill () but also with stroke ()), and adding an image to the center of your canvas. Draw also a canvas border.
+- Draw a title with 4 squares of different colors (drawing with **fill()** but also with **stroke()** ), and adding an image to the center of your canvas. Draw also a canvas border.
 - Draw 3 triangles, one with its unclosed path.
 - Draw an animated Pacman
 
