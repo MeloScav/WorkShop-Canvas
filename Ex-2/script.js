@@ -5,14 +5,14 @@ const width = canvas.getAttribute("width"); // Width canvas
 const height = canvas.getAttribute("height"); // Height canvas
 
 // The border
-const border = (color, width, height) => {
+const Border = (color, width, height) => {
   context.lineWidth = "5";
   context.strokeStyle = color;
   context.strokeRect(0, 0, width, height); // Empty rectangle
 };
 
 // Empty triangle
-const emptyTriangle = (
+const EmptyTriangle = (
   lineW,
   color,
   moveX,
@@ -39,7 +39,7 @@ const emptyTriangle = (
 };
 
 // filled triangle
-const fullTriangle = (
+const FullTriangle = (
   colorOne,
   colorTwo,
   colorThree,
@@ -63,17 +63,17 @@ const fullTriangle = (
   context.fill();
 };
 
-const draw = () => {
+const Draw = () => {
   // Draw the border
-  border("purple", width, height);
+  Border("purple", width, height);
   // Draw the empty triangle
   // color - moveX - moveY - lineOneX - lineOneY - lineTwoX - lineTwoY - lineRound
-  emptyTriangle("3", "red", 10, 10, 10, 100, 100, 10, false);
+  EmptyTriangle("3", "red", 10, 10, 10, 100, 100, 10, false);
   // Draw the filled triangle
   // colorOne - colorTwo - colorThree -  moveX - moveY - lineOneX - lineOneY - lineTwoX - lineTwoY
-  fullTriangle("blue", "purple", "#D619D6", 100, 200, 200, 200, 150, 80);
+  FullTriangle("blue", "purple", "#D619D6", 100, 200, 200, 200, 150, 80);
   // Draw the empty triangle
-  emptyTriangle("5", "green", 200, 300, 400, 300, 350, 200, true);
+  EmptyTriangle("5", "green", 200, 300, 400, 300, 350, 200, true);
 };
 
-draw();
+Draw();

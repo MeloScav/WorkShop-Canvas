@@ -4,7 +4,7 @@ const width = canvas.getAttribute("width"); // Width canvas
 const height = canvas.getAttribute("height"); // Height canvas
 
 // Draw the image
-const drawImg = (
+const DrawImg = (
   pathSrc,
   cutX,
   cutY,
@@ -34,14 +34,14 @@ const drawImg = (
 };
 
 // Draw the border
-const drawBorder = () => {
+const DrawBorder = () => {
   context.lineWidth = "5";
   context.strokeStyle = "green";
   context.strokeRect(0, 0, width, height); // Empty rectangle
 };
 
 // Draw the title
-const drawTitle = (width, y) => {
+const DrawTitle = (width, y) => {
   let text = "Exercice 1";
   let mesure = context.measureText(text).width;
   context.font = "20px serif";
@@ -49,32 +49,32 @@ const drawTitle = (width, y) => {
 };
 
 // Draw the filled rectangle
-const drawRectFill = (color, x, y, width, height) => {
+const DrawRectFill = (color, x, y, width, height) => {
   context.fillStyle = color;
   context.fillRect(x, y, width, height); // Rectangle plein
 };
 
 // Draw the empty rectangle
-const drawRectStroke = (color, x, y, width, height) => {
+const DrawRectStroke = (color, x, y, width, height) => {
   context.lineWidth = "3";
   context.strokeStyle = color;
   context.strokeRect(x, y, width, height);
 };
 
 // Draw all
-const draw = () => {
+const Draw = () => {
   // Draw border
-  drawBorder();
+  DrawBorder();
   // Title
-  drawTitle(width, 30);
+  DrawTitle(width, 30);
   // The rectangles
-  drawRectFill("red", 20, 70, 50, 50);
-  drawRectStroke("blue", 95, 70, 50, 50);
-  drawRectFill("green", 165, 70, 50, 50);
-  drawRectStroke("yellow", 235, 70, 50, 50);
+  DrawRectFill("red", 20, 70, 50, 50);
+  DrawRectStroke("blue", 95, 70, 50, 50);
+  DrawRectFill("green", 165, 70, 50, 50);
+  DrawRectStroke("yellow", 235, 70, 50, 50);
   // Draw image in center
   // Src - cutX - cutY - cutWidth - cutHeight - ImgWidth - ImgHeight
-  drawImg("chaton.jpg", 200, 10, 400, 400, 200, 200);
+  DrawImg("chaton.jpg", 200, 10, 400, 400, 200, 200);
 };
 
-draw();
+Draw();
