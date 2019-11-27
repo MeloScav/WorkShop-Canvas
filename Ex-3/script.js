@@ -65,12 +65,10 @@ const Food = x => {
   context.closePath();
   if (statut == 1) {
     context.fill();
-    console.log(pacmanX);
     if (pacmanX == x) {
       statut = 0;
     }
   }
-  console.log(statut);
 };
 
 const Draw = () => {

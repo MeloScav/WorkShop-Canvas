@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(223, 220, 223);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 15px;
+  color: red;
+}
+
+canvas {
+  background: rgb(223, 220, 223);
+}
